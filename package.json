@@ -1,0 +1,16 @@
+{
+  "name": "staywise-ai",
+  "version": "1.0.0",
+  "description": "StayWise AI - PG & Hostel Agreement Red-Flag Spotter for students in Bengaluru and beyond",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "test:server": "cd server && npm test"
+  },
+  "keywords": ["pg-agreement", "rental-analyzer", "red-flag-spotter", "student-safety", "hackathon"],
+  "author": "StayWise Team",
+  "license": "MIT"
+}
